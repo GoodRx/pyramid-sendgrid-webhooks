@@ -3,7 +3,11 @@
 Classes for incoming webhook events
 """
 
+import logging
 import datetime
+
+
+LOGGER = logging.getLogger(__name__)
 
 
 class BaseWebhookEvent(object):
@@ -16,6 +20,7 @@ class BaseWebhookEvent(object):
                       'status', 'url'}
 
     def __init__(self, request, data):
+        LOGGER.debug("Received data %r", data)
         self.request = request
         self.data = dict(data)
         self.event = self.data['event']
