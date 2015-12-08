@@ -16,8 +16,8 @@ class BaseWebhookEvent(object):
     """
 
     RESERVED_NAMES = {'event', 'email', 'timestamp', 'ip', 'tls', 'cert_error',
-                      'stmp-id', 'useragent', 'category', 'reason', 'type',
-                      'status', 'url'}
+                      'smtp-id', 'useragent', 'category', 'reason', 'type',
+                      'status', 'url', 'asm_group_id'}
 
     def __init__(self, request, data):
         LOGGER.debug("Received data %r", data)

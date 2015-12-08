@@ -18,7 +18,7 @@ requirements = [
     'pyramid>=1.1.0',
 ]
 
-test_requirements = [
+test_requirements = requirements + [
     'pytest',
 ]
 
