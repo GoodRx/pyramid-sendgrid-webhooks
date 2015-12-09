@@ -20,6 +20,7 @@ requirements = [
 
 test_requirements = requirements + [
     'pytest',
+    'webtest',
 ]
 
 setup(

@@ -17,6 +17,9 @@ Then, set up subscribers for any events that you want to be notified of:
 
     ...
     config.add_subscriber(handle_bounce, events.BounceEvent)
+
+Currently the app adds a single endpoint at '{PREFIX}/receive'.  This will be
+the webhook path to give to Sendgrid.
 """
 
 from . import parser
@@ -36,5 +39,5 @@ def includeme(config):
     """
     Adds route and view configuration
     """
-    config.add_route('sendgrid-webhook-receive', '')
-    config.add_view(receive_events, 'sendgrid-webhook-receive')
+    config.add_route('sendgrid-webhook-receive', '/receive')
+    config.add_view(receive_events, route_name='sendgrid-webhook-receive')
