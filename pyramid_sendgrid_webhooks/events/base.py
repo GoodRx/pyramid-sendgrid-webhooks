@@ -26,9 +26,10 @@ class BaseWebhookEvent(object):
         self.event = self.data['event']
         self.email = self.data['email']
         self.timestamp = self.data['timestamp']
-        self.ip = self.data['ip']
-        self.tls = self.data['tls']
-        self.cert_error = self.data['tls']
+
+        self.ip = self.data.get('ip')
+        self.tls = self.data.get('tls')
+        self.cert_error = self.data.get('cert_error')
 
         self.category = self.data['category']
 

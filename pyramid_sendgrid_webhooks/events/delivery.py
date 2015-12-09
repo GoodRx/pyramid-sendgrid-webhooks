@@ -32,7 +32,7 @@ class BounceEvent(BaseDeliveryEvent):
         super(BounceEvent, self).__init__(request, data)
         self.status = self.data['status']
         self.reason = self.data['reason']
-        self.type = self.data['type']
+        self.type = self.data.get('type')
 
 
 class DeferredEvent(BaseDeliveryEvent):

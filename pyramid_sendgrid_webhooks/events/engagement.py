@@ -24,7 +24,7 @@ class BaseEngagementEvent(BaseWebhookEvent):
     """
     def __init__(self, request, data):
         super(BaseEngagementEvent, self).__init__(request, data)
-        self.useragent = self.data['useragent']
+        self.useragent = self.data.get('useragent')
 
 
 class ClickEvent(BaseEngagementEvent):
