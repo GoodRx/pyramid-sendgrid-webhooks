@@ -6,6 +6,10 @@ Base classes for webhook events
 import logging
 import datetime
 
+try:
+    STR_TYPE = basestring
+except NameError:
+    STR_TYPE = str
 
 LOGGER = logging.getLogger(__name__)
 
@@ -43,7 +47,7 @@ class BaseWebhookEvent(object):
         Unique arguments are considered to be any provided arguments that
         aren't known Sendgrid names
         """
-        return {k: v for k, v in data.iteritems()
+        return {k: v for k, v in data.items()
                 if k not in cls.RESERVED_NAMES}
 
     @property
@@ -56,7 +60,7 @@ class BaseWebhookEvent(object):
         """ Returns categories as a list """
         if not self.category:
             return []
-        elif isinstance(self.category, basestring):
+        elif isinstance(self.category, STR_TYPE):
             return [self.category]
         else:
             return list(self.category)

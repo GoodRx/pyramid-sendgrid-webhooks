@@ -15,10 +15,10 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-    'pyramid>=1.1.0',
+    'pyramid>=1.4.0',
 ]
 
-test_requirements = requirements + [
+test_requirements = [
     'pytest',
     'webtest',
 ]
