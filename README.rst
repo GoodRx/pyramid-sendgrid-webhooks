@@ -24,9 +24,13 @@ Features
 To use this app, add a configuration statement with your intended webhook
 callback path:
 
+.. code:: python
+
     config.include('pyramid_sendgrid_webhooks', '/sendgrid/webhooks')
 
 Then, set up subscribers for any events that you want to be notified of:
+
+.. code:: python
 
     from pyramid_sendgrid_webhooks import events
 
