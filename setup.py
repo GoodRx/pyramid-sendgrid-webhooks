@@ -31,7 +31,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Kyle Stark",
     author_email='kyle@goodrx.com',
-    url='https://github.com/GoodRx/pyramid_sendgrid_webhooks',
+    url='https://github.com/GoodRx/pyramid-sendgrid-webhooks',
     packages=[
         'pyramid_sendgrid_webhooks',
     ],

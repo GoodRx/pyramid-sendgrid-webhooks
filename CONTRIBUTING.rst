@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/GoodRx/pyramid_sendgrid_webhooks/issues.
+Report bugs at https://github.com/GoodRx/pyramid-sendgrid-webhooks/issues.
 
 If you are reporting a bug, please include:
 
@@ -43,7 +43,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/GoodRx/pyramid_sendgrid_webhooks/issues.
+The best way to send feedback is to file an issue at https://github.com/GoodRx/pyramid-sendgrid-webhooks/issues.
 
 If you are proposing a feature:
 
@@ -100,7 +100,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, 3.3, and 3.4, and for PyPy. Check
-   https://travis-ci.org/GoodRx/pyramid_sendgrid_webhooks/pull_requests
+   https://travis-ci.org/GoodRx/pyramid-sendgrid-webhooks/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips

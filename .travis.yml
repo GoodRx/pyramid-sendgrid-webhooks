@@ -26,5 +26,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: GoodRx/pyramid_sendgrid_webhooks
+    repo: GoodRx/pyramid-sendgrid-webhooks
     condition: $TOXENV == py27
