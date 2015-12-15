@@ -26,7 +26,7 @@ from . import parser
 
 __author__ = 'Kyle Stark'
 __email__ = 'kyle@goodrx.com'
-__version__ = '1.1.0'
+__version__ = '1.2.0'
 
 
 def receive_events(request):
