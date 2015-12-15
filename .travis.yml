@@ -23,7 +23,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: GoodRx
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: LC9HIDopqJSLhxkCEJ4Wlr4vxBUiEOXH5+O5YIHFDn07gB01mALMPktOH7ujDkYl3Ct9301FMvxnbEd72O7oxzdaokuhJDCb2VtiECObaVAAB5GyNB4IZE0/TYRVfv/OHXlvL8YWxDnWpCa70mccHgB0N91pGsjrB+3gWDiek3C/e9bENXCdohtBLOH4RERXvSpx+iVynDpeKXFzg3kNezQMHDIGZN39qT4o2+4AXjYlzLQc5nnTOm4L9BPzT7oV1MV33TRdL1L1z98zKm/vRkLwrE6Du+Sn4LBYubm6b9nWywZ3wCNmp30B7Deslbl+NzC14IJlXER4pvEqTuTg6I0jEiDBASAtv1QyYB/X0JhOudP5vXcRJ7sgyoTvtfX3ufcJ/OADD/SrpWz6YecHUCzTq9EMmCtX+kPWVIafTsTWbtaJU+pe+Q7QDMDLYBz5VntnxH/HN6xQJw9IrrvfzLwmCDSUUkI78Ot1eBgFJjvT0Nvc4vni9sD1LFRE8dUaFLAI541gr3rWx8Tw3mCkH6r8KPZfDGIHWcccNKiWbfKkwVb9fSet0t2nyAuNhh0jJ3gJe4NQbi7WChwNidHp/Cr0mI0dhR94Jdu66nZ2V39x/j4YHa8DqRunRbVB5n0OjBb1eJXbEThrLd7tP5rGxnDOazQqjta2VxrWzNqo46c=
   on:
     tags: true
     repo: GoodRx/pyramid-sendgrid-webhooks
