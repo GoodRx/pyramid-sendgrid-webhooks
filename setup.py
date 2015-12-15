@@ -23,6 +23,7 @@ test_requirements = [
     'webtest',
 ]
 
+
 setup(
     name='pyramid_sendgrid_webhooks',
     version='0.1.0',
