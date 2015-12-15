@@ -5,8 +5,8 @@ Pyramid Sendgrid Webhooks
 .. image:: https://img.shields.io/pypi/v/pyramid_sendgrid_webhooks.svg
         :target: https://pypi.python.org/pypi/pyramid_sendgrid_webhooks
 
-.. image:: https://img.shields.io/travis/kstark/pyramid_sendgrid_webhooks.svg
-        :target: https://travis-ci.org/kstark/pyramid_sendgrid_webhooks
+.. image:: https://img.shields.io/travis/GoodRx/pyramid_sendgrid_webhooks.svg
+        :target: https://travis-ci.org/GoodRx/pyramid_sendgrid_webhooks
 
 .. image:: https://readthedocs.org/projects/pyramid_sendgrid_webhooks/badge/?version=latest
         :target: https://readthedocs.org/projects/pyramid_sendgrid_webhooks/?badge=latest
@@ -15,7 +15,7 @@ Pyramid Sendgrid Webhooks
 
 Parses incoming Sendgrid Webhooks in Pyramid  apps
 
-* Free software: ISC license
+* Free software: MIT license
 * Documentation: https://pyramid_sendgrid_webhooks.readthedocs.org.
 
 Features

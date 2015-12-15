@@ -21,7 +21,7 @@ except:
     from urllib.request import urlopen
 
 
-GITHUB_REPO = 'kstark/pyramid_sendgrid_webhooks'
+GITHUB_REPO = 'GoodRx/pyramid_sendgrid_webhooks'
 TRAVIS_CONFIG_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), '.travis.yml')
 

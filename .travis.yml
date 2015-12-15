@@ -22,10 +22,10 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: kstark
+  user: GoodRx
   password:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: kstark/pyramid_sendgrid_webhooks
+    repo: GoodRx/pyramid_sendgrid_webhooks
     condition: $TOXENV == py27
