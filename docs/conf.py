@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Pyramid Sendgrid Webhooks'
-copyright = u'2015, Kyle Stark'
+copyright = u'2015, GoodRx, Inc.'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
