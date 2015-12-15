@@ -34,6 +34,7 @@ setup(
     url='https://github.com/GoodRx/pyramid-sendgrid-webhooks',
     packages=[
         'pyramid_sendgrid_webhooks',
+        'pyramid_sendgrid_webhooks.events',
     ],
     package_dir={'pyramid_sendgrid_webhooks':
                  'pyramid_sendgrid_webhooks'},
