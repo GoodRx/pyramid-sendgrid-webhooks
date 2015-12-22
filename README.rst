@@ -41,6 +41,10 @@ Then, set up subscribers for any events that you want to be notified of:
     ...
     config.add_subscriber(handle_bounce, events.BounceEvent)
 
+Currently the app adds a single endpoint at :code:`{PREFIX}/receive`.  This will be
+the webhook path to give to Sendgrid.  In the example above, the full endpoint
+would therefore be at :code:`/sendgrid/webhooks/receive`.
+
 
 Credits
 ---------
