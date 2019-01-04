@@ -40,3 +40,7 @@ deploy:
     tags: true
     repo: GoodRx/pyramid-sendgrid-webhooks
     condition: $TOXENV == py27
+
+branches:
+  only:
+    - master
