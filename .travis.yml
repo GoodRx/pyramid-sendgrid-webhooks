@@ -1,5 +1,4 @@
 # Config file for automatic testing at travis-ci.org
-# This file will be regenerated if you run travis_pypi_setup.py
 
 language: python
 python: 3.7
@@ -28,8 +27,9 @@ matrix:
       python: 3.7
       env: TOXENV=py37
 
-# After you create the Github repo and add it to Travis, run the
-# travis_pypi_setup.py script to finish PyPI deployment setup
+    - name: Dependency vulnerability checks
+      env: TOXENV=safety
+
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
