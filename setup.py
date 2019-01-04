@@ -18,12 +18,6 @@ requirements = [
     'pyramid>=1.4.0',
 ]
 
-test_requirements = [
-    'pytest',
-    'webtest',
-]
-
-
 setup(
     name='pyramid_sendgrid_webhooks',
     version='1.2.3',
@@ -51,11 +45,9 @@ setup(
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Framework :: Pyramid',
     ],
-    test_suite='tests',
-    tests_require=test_requirements
 )

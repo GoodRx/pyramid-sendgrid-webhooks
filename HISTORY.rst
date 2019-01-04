@@ -3,6 +3,17 @@
 History
 -------
 
+2.0.0 (2018-01-04)
+---------------------
+
+* Drop support for deprecated Python 3.x versions
+* Add support for Python 3.6 and 3.7
+
+1.2.3 (2015-12-22)
+---------------------
+
+* Update docs
+
 1.2.2 (2015-12-15)
 ---------------------
 
