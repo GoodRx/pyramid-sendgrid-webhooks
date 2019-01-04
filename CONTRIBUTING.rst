@@ -77,7 +77,6 @@ Ready to contribute? Here's how to set up `pyramid_sendgrid_webhooks` for local 
 5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
 
     $ flake8 pyramid_sendgrid_webhooks tests
-    $ python setup.py test
     $ tox
 
    To get flake8 and tox, just pip install them into your virtualenv.
@@ -99,7 +98,7 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.6, 2.7, 3.3, and 3.4, and for PyPy. Check
+3. The pull request should work for Python 2.7, 3.5, 3.6, and 3.7. Check
    https://travis-ci.org/GoodRx/pyramid-sendgrid-webhooks/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
@@ -108,4 +107,4 @@ Tips
 
 To run a subset of tests::
 
-    $ python -m unittest tests.test_pyramid_sendgrid_webhooks
+    $ pytest tests.test_pyramid_sendgrid_webhooks
