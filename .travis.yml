@@ -44,3 +44,5 @@ deploy:
 branches:
   only:
     - master
+    # Match tags starting with "vN..."
+    - /^v\d+.*$/
