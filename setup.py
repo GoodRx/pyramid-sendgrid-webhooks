@@ -20,7 +20,7 @@ requirements = [
 
 setup(
     name='pyramid_sendgrid_webhooks',
-    version='1.2.3',
+    version='2.0.0',
     description="Parses incoming Sendgrid Webhooks in Pyramid apps",
     long_description=readme + '\n\n' + history,
     author="Kyle Stark",
